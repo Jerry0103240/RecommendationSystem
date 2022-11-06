@@ -54,13 +54,14 @@
     - choices of similarity
         - cosine similarity
         - adjusted cosine similarity
-        - pearson correlation
+        - pearson correlation similarity
     
     - summary
         - memory-based algorithm utilizes interaction between users & items for recommendation
 - model-based
     - singular value decomposition (SVD)
-        - TODO
+        - decompose user-item table into three factors
+        - choose suitable K for reducing calculation
     - matrix factorization
         - decompose user-item table into user latent table & item latent table
         - minimize loss (e.g. MSE) with predictions from latent table
